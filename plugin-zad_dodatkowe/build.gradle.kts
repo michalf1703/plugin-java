@@ -1,5 +1,5 @@
 plugins {
-    id("java")
+    java
     id("org.jetbrains.intellij") version "1.8.0"
 }
 
@@ -8,6 +8,10 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+}
+
+dependencies {
+    implementation("org.json:json:20210307")
 }
 
 // Configure Gradle IntelliJ Plugin

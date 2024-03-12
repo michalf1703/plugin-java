@@ -5,14 +5,13 @@
     <vendor email="your.email@example.com" url="http://www.example.com">Your Name</vendor>
 
     <description><![CDATA[
-    This is a simple IntelliJ plugin.
+    This is a simple IntelliJ plugin to fetch weather information from OpenWeatherMap API.
   ]]></description>
 
     <!-- Definicja akcji -->
     <actions>
         <!-- Akcja w menu kontekstowym -->
-        <action id="MyPlugin.Action" class="MyPluginAction" text="Hello from My Plugin" description="Hello from My Plugin">
-            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift H"/>
+        <action id="MyPlugin.WeatherInfoAction" class="WeatherInfoAction" text="Show Weather Info" description="Show Weather Info">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
         </action>
     </actions>
