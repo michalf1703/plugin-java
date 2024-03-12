@@ -1,16 +1,14 @@
 <idea-plugin>
     <id>moj.plugin.intellij</id>
-    <name>My IntelliJ Plugin</name>
+    <name>Weather plugin</name>
     <version>1.0</version>
     <vendor email="your.email@example.com" url="http://www.example.com">Your Name</vendor>
 
     <description><![CDATA[
-    This is a simple IntelliJ plugin to fetch weather information from OpenWeatherMap API.
+    Simple IntelliJ plugin to fetch weather information from OpenWeatherMap API.
   ]]></description>
 
-    <!-- Definicja akcji -->
     <actions>
-        <!-- Akcja w menu kontekstowym -->
         <action id="MyPlugin.WeatherInfoAction" class="WeatherInfoAction" text="Show Weather Info" description="Show Weather Info">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
         </action>
