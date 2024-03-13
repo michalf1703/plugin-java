@@ -21,7 +21,7 @@ This project is a simple Gradle-based Java application that fetches weather info
 
 3. Build the project using Gradle.
 
-4. Run the `WeatherInfoAction` class.
+4. Run the plugin.
 
 5. You will see a dialog box displaying weather information for a random city.
 
