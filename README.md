@@ -28,8 +28,6 @@ This project is a simple Gradle-based Java application that fetches weather info
 ## Dependencies
 - [Gradle](https://gradle.org/): Build automation tool used to manage dependencies and build the project.
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/): Recommended IDE for working with this project.
- 
-## Acknowledgments
 - [OpenWeatherMap API](https://openweathermap.org/): Provides weather data API for developers.
 - [Wirefree Thought GeoDB API](http://geodb-free-service.wirefreethought.com/): Provides location data for cities.
   
